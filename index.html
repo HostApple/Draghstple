@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostApple</title>
+</head>
+<body>
+    <main class="desktop" id="desktop">
+  <div class="orb one"></div>
+  <div class="orb two"></div>
+ <!--1st tab welcome window ig ion really know-->
+
+<section class="window" id="welcome" data-title="welcome.exe">
+    <header class="titlebar">
+      <span class="window-name">
+        <span class="window-symbol">◈</span>
+        not virus.exe
+    </span>
+    <div class="window-controls">
+        <button class="win-btn minimize" title="Minimize">−</button>
+        <button class="win-btn maximize" title="Center window">□</button>
+        <button class="win-btn close" title="Close">×</button>
+      </div>
+    </header>
+
+    <!--i used ai for this part because im not nerdy enough-->
+    <div class="window-content">
+      <div class="eyebrow">personal homepage · v.01</div>
+
+      <div class="welcome-top" style="margin-top:15px">
+        <div class="profile-orb">☁</div>
+        <div class="welcome-text">
+          <h1>yO, <strong>wassup.</strong></h1>
+          <p>Welcome to my little corner of the internet.</p>
+        </div>
+      </div>
+
+
+      <p>
+        urm , im just a kid in 11th grade doing random stuff
+      </p>
+
+      <div class="tag-row">
+        <span class="tag">♫ kinda love songs</span>
+        <span class="tag">☁ daydreamer</span>
+        <span class="tag">✳ just (BARELY) existing</span>
+      </div>
+
+
+      <div class="soft-rule"></div>
+      <div class="small-label">system message</div>
+      <p style="margin-top:7px">
+        You have successfully entered my universe.
+        Make yourself at home.
+      </p>
+    </div>
+  </section>
+
+
+  <!--ong the easiest part(Spotify thing)-->
+  <section class="window" id="music" data-title="music.player">
+    <header class="titlebar">
+      <span class="window-name">
+        <span class="window-symbol">♫</span>
+        music.player
+      </span>
+      <div class="window-controls">
+        <button class="win-btn minimize" title="Minimize">−</button>
+        <button class="win-btn maximize" title="Center window">□</button>
+        <button class="win-btn close" title="Close">×</button>
+      </div>
+    </header>
+      <div class="window-content">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">now loading</div>
+          <h2 style="margin-top:7px">my soundtrack ♡</h2>
+        </div>
+        <span class="small-label">Spotify</span>
+      </div>
+
+<img class="music-cover"
+      src="https://i.pinimg.com/originals/ba/bf/b3/babfb353df31867d832d8358654792b2.jpg"
+      alt="I like this image from pinterest">
+
+<div class="music-info">
+    <h2>Songs that i listen</h2>
+    <p>My playlist . on repeat</p>
+
+</div>
+
+<!-- SPOTIFY PLAYLIST YAYAYAYAY -->
+      <a class="open-link"
+        id="spotifyLink"
+        href="https://open.spotify.com/playlist/69wnpvx13yjxzN0pt0Q0u4?si=e72522a3cc214c7f"
+        target="_blank"
+        rel="noopener noreferrer">
+        ♫ &nbsp; Open playlist on Spotify ↗
+      </a>
+ <!-- embed play -->
+      <div class="spotify-embed" id="spotifyEmbed" hidden>
+        <iframe
+          id="spotifyFrame"
+          title="Spotify playlist player"
+          loading="lazy"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+      </div>
+      <p style="font-size:10px;margin-top:12px">
+        a soundtrack for doing absolutely nothing.
+      </p>
+    </div>
+  </section>
+
+<!--another window-->
+<section class="window" id="gallery" data-title="memories.folder">
+    <header class="titlebar">
+        <span class="window-name">
+            <span class="window-symbol">✎</span>
+            memories.folder
+         </span>
+        <div class="window-controls">
+        <button class="win-btn minimize" title="Minimize">−</button>
+        <button class="win-btn maximize" title="Center window">□</button>
+        <button class="win-btn close" title="Close">×</button>
+      </div>
+    </header>
+
+
+    <div class="window-content">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">some cool photos</div>
+          <h2 style="margin-top:7px">little moments</h2>
+        </div>
+        <span class="small-label">3 Memes</span>
+      </div>
+
+      <div class="photo-grid">
+        <button class="photo" data-full
+        aria-label="View peaceful landscape">
+          <img
+            src="https://i.imgur.com/zY132ZP.jpeg"   
+            alt="Peaceful landscape">
+          <span class="photo-caption">fat car</span>
+        </button>
+        <button class="photo" data-full
+          aria-label="View ocean photograph">
+          <img
+            src="https://i.imgur.com/0YfZLwJ.jpeg"
+            alt="Ocean waves">
+          <span class="photo-caption">lol</span>
+        </button>
+
+        <button class="photo" data-full
+          aria-label="View forest photograph">
+          <img
+            src="https://i.imgur.com/DhJPVp7.jpeg"
+            alt="Sunlight through a forest">
+          <span class="photo-caption">my drilla</span>
+        </button>
+      </div>
+
+      <div class="gallery-footer">
+        <span>3 meme</span>
+        <span>♡ lol</span>
+      </div>
+    </div>
+
+</section>
+
+
+
+
+<!--aboutme window-->
+
+<section class="window" id="about" data-title="about.txt">
+    <header class="titlebar">
+      <span class="window-name">
+        <span class="window-symbol">✳</span>
+        about me.txt
+</span>
+      <div class="window-controls">
+        <button class="win-btn minimize" title="Minimize">−</button>
+        <button class="win-btn maximize" title="Center window">□</button>
+        <button class="win-btn close" title="Close">×</button>
+      </div>
+    </header>
+
+<div class="window-content">
+      <div class="eyebrow">a file about me</div>
+      <h2 style="font-size:22px;margin-top:10px">the human behind the screen.</h2>
+      <p>
+        Hi! I'm <strong style="color:var(--ink)">HostApple</strong>.
+        This is where I learned alot about javascript.
+        I'm into music, games, learning about stuff,
+        and making things just because I can.
+      </p>
+
+      <div class="soft-rule"></div>
+
+      <div class="fact-row">
+        <span>currently listening</span>
+        <span>♫ on repeat</span>
+      </div>
+      <div class="fact-row">
+        <span>current mood</span>
+        <span>☁ dreamy</span>
+      </div>
+      <div class="fact-row">
+        <span>favorite place</span>
+        <span>inside computers</span>
+      </div>
+      <div class="fact-row">
+        <span>status</span>
+        <span>✳ existing</span>
+      </div>
+    </div>
+  </section>
+
+
+
+<!--ANOTHER GODDAMN window-->
+<section class="window" id="notes" data-title="little_note.txt">
+    <header class="titlebar">
+      <span class="window-name">
+        <span class="window-symbol">✧</span>
+        little_note.txt
+      </span>
+      <div class="window-controls">
+        <button class="win-btn minimize" title="Minimize">−</button>
+        <button class="win-btn maximize" title="Center window">□</button>
+        <button class="win-btn close" title="Close">×</button>
+      </div>
+    </header>
+<div class="window-content">
+      <div class="eyebrow">sticky note #001</div>
+      <p class="quote" style="margin-top:13px">
+        "i dont really know about shi"
+      </p>
+      <span class="quote-by">a thought from my little brain♡</span>
+    </div>
+  </section>
+</main>
+
+<!-- Ios style dock  // this uses divs to make the dock look the that--> 
+<nav class="dock-wrap" aria-label="Desktop dock">
+  <div class="dock">
+    <button class="dock-btn" data-open="welcome"
+      data-label="Home" aria-label="Open home">⌂</button>
+    <button class="dock-btn" data-open="music"
+      data-label="Music" aria-label="Open music">♫</button>
+    <button class="dock-btn" data-open="gallery"
+      data-label="Gallery" aria-label="Open gallery">▧</button>
+    <button class="dock-btn" data-open="about"
+      data-label="About" aria-label="Open about">✳</button>
+    <button class="dock-btn" data-open="notes"
+      data-label="Notes" aria-label="Open notes">✧</button>
+    <span class="dock-separator"></span>
+    <div class="dock-clock">
+      <strong id="clock">--:--</strong>
+      <span id="clockDate">loading...</span>
+    </div>
+  </div>
+</nav>
+<!-- photoviewr -->
+<div class="lightbox" id="lightbox" role="dialog"
+  aria-modal="true" aria-label="Photo viewer">
+  <div class="lightbox-inner">
+    <button id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+</div>
+
+
+<style>
+:root {
+  --grass: #D8D7D2;
+  --grass-dark: #C8C6BF;
+  --white: rgba(232,231,227,.88);
+  --white-strong: rgba(232,231,227,.96);
+  --edge: rgba(43,45,47,.16);
+  --ink: #2B2D2F;
+  --muted: #6F716F;
+  --shadow: 0 18px 48px rgba(43,45,47,.10);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  color: var(--ink);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background:
+    radial-gradient(ellipse at 15% 10%, #F1F0EC 0%, transparent 36%),
+    radial-gradient(ellipse at 85% 75%, #D0CFC8 0%, transparent 43%),
+    linear-gradient(135deg, #E8E7E3, #D8D7D2 60%, #E8E7E3);
+}
+
+/* windows 7 ahh theme  */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+  opacity: .12;
+  background-image: repeating-linear-gradient(
+    0deg, transparent 0 3px, #E8E7E3 4px
+  );
+  mix-blend-mode: soft-light;
+}
+
+button, input { font: inherit; }
+
+button, a { -webkit-tap-highlight-color: transparent; }
+
+button { color: inherit; }
+
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #4E6548;
+  outline-offset: 3px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.desktop {
+  position: relative;
+  height: 100dvh;
+  min-height: 520px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Background */
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(1px);
+  background: radial-gradient(
+    circle at 30% 25%,
+    rgba(255,255,255,.95),
+    rgba(255,255,255,.12) 50%,
+    rgba(171,196,158,.12) 75%,
+    transparent
+  );
+}
+
+.orb.one {
+  width: 320px;
+  height: 320px;
+  top: -100px;
+  right: 8%;
+}
+
+.orb.two {
+  width: 260px;
+  height: 260px;
+  bottom: 5%;
+  left: -100px;
+}
+
+/* zesty icons */
+
+.desktop-icons {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 1;
+  display: grid;
+  gap: 20px;
+}
+
+.desktop-icon {
+  width: 76px;
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  padding: 8px 3px;
+  color: var(--ink);
+  text-align: center;
+  font-size: 11px;
+  border-radius: 10px;
+  text-shadow: 0 1px 5px white;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.desktop-icon:hover {
+  background: rgba(255,255,255,.3);
+  border-color: rgba(43,45,47,.10);
+}
+
+.icon-art {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  border-radius: 12px;
+  background: linear-gradient(
+    145deg, #E8E7E3, #D8D7D2a6
+  );
+  border: 1px solid white;
+  box-shadow: 0 5px 15px rgba(43,45,47,.06),
+    inset 0 1px white;
+}
+
+.window {
+  position: absolute;
+  z-index: 2;
+  width: 390px;
+  max-width: calc(100vw - 30px);
+  border: 1px solid var(--edge);
+  border-radius: 17px;
+  background: var(--white);
+  backdrop-filter: blur(28px) saturate(125%);
+  -webkit-backdrop-filter: blur(28px) saturate(125%);
+  box-shadow: var(--shadow), inset 0 1px white;
+  overflow: hidden;
+  animation: appear .45s ease both;
+  transition: box-shadow .2s;
+}
+
+.window.active {
+  box-shadow: 0 24px 60px rgba(43,45,47,.10),
+    inset 0 1px white;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(12px) scale(.98); } /* shitty ahh keyframes */
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.titlebar {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 10px 0 14px;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+  border-bottom: 1px solid rgba(43,45,47,.12);
+  background: linear-gradient(
+    180deg, #E8E7E3, rgba(216,215,210,.72) 48%, rgba(216,215,210,.8)
+  );
+}
+
+.titlebar:active { cursor: grabbing; }
+
+.window-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .15px;
+}
+
+.window-symbol { font-size: 14px; }
+
+.window-controls { display: flex; gap: 5px; }
+
+.win-btn {
+  width: 23px;
+  height: 21px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  border: 1px solid rgba(43,45,47,.14);
+  background: rgba(43,45,47,.10);
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.win-btn:hover { background: white; }
+
+.win-btn.close:hover {
+  background: #E2E0DA;
+}
+
+.window-content { padding: 18px; }
+
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1, h2, h3, p { margin-top: 0; }
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-size: 35px;
+  line-height: 1.12;
+}
+
+h1 strong { font-weight: 650; }
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.soft-rule {
+  height: 1px;
+  background: rgba(43,45,47,.14);
+  margin: 16px 0;
+}
+
+.small-label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--muted);
+}
+
+/* startup introduction ? */
+
+#welcome {
+  width: 390px;
+  top: 9%;
+  left: 19%;
+}
+
+.welcome-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 14px;
+}
+
+.profile-orb {
+  flex: 0 0 67px;
+  height: 67px;
+  display: grid;
+  place-items: center;
+  font-size: 31px;
+  border: 1px solid white;
+  border-radius: 22px;
+  background: radial-gradient(
+    circle at 30% 25%, white, #e1ebda 70%
+  );
+  box-shadow: inset 0 1px white, 0 5px 16px rgba(78,101,72,.10);
+}
+
+.welcome-text { min-width: 0; }
+
+.welcome-text h1 { font-size: 30px; }
+
+.welcome-text p { font-size: 11px; }
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.tag {
+  padding: 7px 10px;
+  font-size: 10px;
+  border-radius: 9px;
+  border: 1px solid white;
+  background: rgba(232,231,227,.72);
+}
+
+/* spotify thing embed */
+
+#music {
+  width: 330px;
+  top: 9%;
+  right: 8%;
+  animation-delay: .07s;
+}
+
+.music-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+  border-radius: 13px;
+  background: #D8D7D2;
+  border: 1px solid white;
+}
+
+.music-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+  margin: 14px 0;
+}
+
+.music-info h2 { margin-bottom: 5px; }
+
+.music-info p { font-size: 10px; }
+
+.open-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 11px;
+  background: rgba(232,231,227,.92);
+  font-size: 11px;
+  cursor: pointer;
+  transition: background .2s, transform .2s;
+}
+
+.open-link:hover {
+  background: white;
+  transform: translateY(-1px);
+}
+
+.spotify-embed {
+  margin-top: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.spotify-embed iframe {
+  display: block;
+  width: 100%;
+  height: 152px;
+  border: 0;
+}
+
+/* photo app */
+
+#gallery {
+  width: 405px;
+  top: 40%;
+  left: 11%;
+  animation-delay: .12s;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.photo {
+  display: block;
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 11px;
+  border: 1px solid white;
+  background: #D8D7D2;
+  cursor: pointer;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+
+.photo:hover img { transform: scale(1.07); }
+
+.photo-caption {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  padding: 7px 4px;
+  text-align: center;
+  font-size: 9px;
+  border: 1px solid rgba(43,45,47,.12);
+  border-radius: 7px;
+  background: #E8E7E3;
+  backdrop-filter: blur(10px);
+}
+
+.gallery-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  font-size: 9px;
+  color: var(--muted);
+}
+
+/* About me */
+
+#about {
+  width: 300px;
+  top: 44%;
+  right: 10%;
+  animation-delay: .16s;
+}
+
+.fact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(43,45,47,.12);
+  font-size: 11px;
+}
+
+.fact-row:last-child { border-bottom: 0; }
+
+.fact-row span:last-child { color: var(--muted); }
+
+/* note app */
+
+#notes {
+  width: 250px;
+  left: 45%;
+  top: 65%;
+  animation-delay: .2s;
+}
+
+.quote {
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -.2px;
+}
+
+.quote-by {
+  display: block;
+  margin-top: 12px;
+  font-size: 9px;
+  color: var(--muted);
+}
+
+/* soto window */
+
+.window.minimized { display: none; }
+
+/* ios style dogk */
+
+.dock-wrap {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  bottom: 15px;
+  transform: translateX(-50%);
+  max-width: calc(100vw - 24px);
+}
+
+.dock {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  border-radius: 19px;
+  border: 1px solid white;
+  background: rgba(232,231,227,.94);
+  backdrop-filter: blur(32px) saturate(130%);
+  -webkit-backdrop-filter: blur(32px) saturate(130%);
+  box-shadow: 0 12px 35px rgba(43,45,47,.08), inset 0 1px white;
+}
+
+.dock-btn {
+  width: 43px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  font-size: 19px;
+  cursor: pointer;
+  transition: transform .18s, background .18s;
+}
+
+.dock-btn:hover {
+  transform: translateY(-4px);
+  background: #E8E7E3;
+  border-color: white;
+}
+
+.dock-btn::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  padding: 7px 10px;
+  font-size: 10px;
+  white-space: nowrap;
+  border-radius: 8px;
+  background: #E8E7E3;
+  border: 1px solid white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s, transform .15s;
+}
+
+.dock-btn:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dock-separator {
+  width: 1px;
+  height: 24px;
+  margin: 0 3px;
+  background: #E8E7E3;
+}
+
+.dock-clock {
+  padding: 0 10px;
+  min-width: 74px;
+  text-align: center;
+}
+
+.dock-clock strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.dock-clock span {
+  display: block;
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+/* photoviewerr */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background: #e1eadac9;
+  backdrop-filter: blur(18px);
+}
+
+.lightbox.open { display: flex; }
+
+.lightbox-inner {
+  position: relative;
+  width: min(500px, 100%);
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 18px;
+  background: rgba(216,215,210,.92);
+  box-shadow: var(--shadow);
+}
+
+.lightbox img {
+  display: block;
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 11px;
+}
+
+.lightbox button {
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: #E8E7E3;
+  cursor: pointer;
+}
+
+/* Responsive desktop */
+
+@media (max-width: 760px) {
+  body { overflow: hidden; }
+
+  .desktop-icons {
+    top: 10px;
+    left: 9px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .desktop-icon {
+    width: 66px;
+    font-size: 9px;
+    padding: 5px 2px;
+  }
+
+  .icon-art {
+    width: 34px;
+    height: 34px;
+    font-size: 19px;
+  }
+
+  .window {
+    max-width: calc(100vw - 28px);
+    max-height: calc(100dvh - 145px);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+
+  #welcome {
+    top: 100px;
+    left: 14px;
+    width: 350px;
+  }
+
+  #music {
+    top: 120px;
+    right: 14px;
+    width: 315px;
+  }
+
+  #gallery {
+    top: 125px;
+    left: 14px;
+    width: 355px;
+  }
+
+  #about {
+    top: 140px;
+    right: 14px;
+    width: 280px;
+  }
+
+  #notes {
+    top: 160px;
+    left: 30px;
+    width: 250px;
+  }
+
+  .dock-wrap { bottom: 10px; }
+
+  .dock {
+    gap: 3px;
+    padding: 6px;
+  }
+
+  .dock-btn {
+    width: 38px;
+    height: 39px;
+    font-size: 17px;
+  }
+
+  .dock-clock {
+    min-width: 58px;
+    padding: 0 5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* field-guide finish: linen, stone, sage and raw ochre */
+:root {
+  --grass: #D8D7D2;
+  --grass-dark: #C8C6BF;
+  --white: rgba(232,231,227,.88);
+  --white-strong: rgba(232,231,227,.96);
+  --edge: rgba(43,45,47,.14);
+  --ink: #2B2D2F;
+  --muted: #74736F;
+  --shadow: 0 18px 48px rgba(43,45,47,.10);
+  --sage: #4E6548;
+  --ochre: #8F715B;
+}
+
+body {
+  color: var(--ink);
+  letter-spacing: .035em;
+  background:
+    radial-gradient(ellipse at 12% 8%, rgba(241,240,236,.92) 0%, transparent 38%),
+    radial-gradient(ellipse at 88% 82%, rgba(143,113,91,.10) 0%, transparent 42%),
+    linear-gradient(135deg, #E8E7E3 0%, #E2E0DA 55%, #D8D7D2 100%);
+}
+
+body::before {
+  opacity: .045;
+  background-image: repeating-linear-gradient(
+    0deg, transparent 0 4px, rgba(43,45,47,.12) 5px
+  );
+  mix-blend-mode: multiply;
+}
+
+.window {
+  border: 1px solid rgba(43,45,47,.13);
+  border-radius: 15px;
+  background: rgba(232,231,227,.88);
+  backdrop-filter: blur(20px) saturate(88%);
+  -webkit-backdrop-filter: blur(20px) saturate(88%);
+  box-shadow: var(--shadow);
+}
+
+.window.active {
+  box-shadow: 0 22px 54px rgba(43,45,47,.14);
+}
+
+.titlebar {
+  border-bottom: 1px solid rgba(43,45,47,.12);
+  background: linear-gradient(180deg, rgba(241,240,236,.96), rgba(216,215,210,.76));
+}
+
+.window-name, .small-label, .eyebrow, .window-content {
+  letter-spacing: .06em;
+}
+
+.eyebrow, .small-label {
+  color: var(--sage);
+  letter-spacing: .16em;
+}
+
+h1, h2, h3 {
+  color: #2B2D2F;
+  letter-spacing: .015em;
+}
+
+p, .fact-row span:last-child, .gallery-footer, .quote-by {
+  color: #74736F;
+}
+
+.profile-orb, .icon-art {
+  background: linear-gradient(145deg, #F1F0EC, #D8D7D2);
+  border: 1px solid rgba(43,45,47,.12);
+  box-shadow: inset 0 1px rgba(241,240,236,.8), 0 5px 15px rgba(43,45,47,.05);
+}
+
+.tag, .win-btn, .open-link, .photo-caption, .lightbox button {
+  color: var(--ink);
+  border: 1px solid rgba(43,45,47,.13);
+  background: rgba(232,231,227,.78);
+}
+
+.tag, .photo, .music-cover, .open-link, .win-btn, .dock-btn,
+.dock, .lightbox-inner, .lightbox img {
+  border-radius: 12px;
+}
+
+.photo {
+  border: 1px solid rgba(43, 45, 47, 0.174);
+  background: #d8d7d2f6;
+}
+
+.photo-caption {
+  border-radius: 8px;
+  background: rgba(232, 231, 227, 0.922);
+  backdrop-filter: blur(8px);
+}
+
+.open-link:hover, .win-btn:hover, .dock-btn:hover {
+  background: #D8D7D2;
+  border-color: rgba(78,101,72,.35);
+}
+
+.win-btn.close:hover {
+  background: rgba(143,113,91,.15);
+}
+
+.dock {
+  border: 1px solid rgba(43,45,47,.14);
+  background: rgba(232,231,227,.92);
+  backdrop-filter: blur(24px) saturate(90%);
+  -webkit-backdrop-filter: blur(24px) saturate(90%);
+  box-shadow: 0 12px 35px rgba(43,45,47,.09);
+}
+
+.dock-btn:hover {
+  color: var(--sage);
+}
+
+.dock-btn::after {
+  background: #E8E7E3;
+  border: 1px solid rgba(43,45,47,.14);
+  border-radius: 10px;
+}
+
+.soft-rule {
+  background: rgba(43,45,47,.14);
+}
+
+.fact-row {
+  border-bottom: 1px solid rgba(43,45,47,.12);
+}
+
+.lightbox {
+  background: rgba(43,45,47,.30);
+  backdrop-filter: blur(18px);
+}
+
+.lightbox-inner {
+  background: #E8E7E3;
+  border: 1px solid rgba(43,45,47,.14);
+  box-shadow: var(--shadow);
+}
+
+a:focus-visible, button:focus-visible {
+  outline-color: var(--sage);
+}
+
+@media (max-width: 760px) {
+  .window {
+    background: rgba(232,231,227,.96);
+  }
+}
+</style>
+
+<script>
+const SETTINGS = {
+  spotifyPlaylistId:"69wnpvx13yjxzN0pt0Q0u4?si=fb10b7fb89d4471b&nd=1&dlsi=bd50a9e2975c4a2a",
+  name: "HostApple"
+};
+
+/*WINDOW MANAGEMENT */
+const windows = [...document.querySelectorAll(".window")];
+let topZ = 10;
+function focusWindow(win) {
+  topZ += 1;
+  win.style.zIndex = topZ;
+  windows.forEach(w => w.classList.remove("active"));
+  win.classList.add("active");
+}
+
+function openWindow(id) {
+  const win = document.getElementById(id);
+  if (!win) return;
+
+  win.classList.remove("minimized");
+  focusWindow(win);
+}
+
+function closeWindow(win) {
+  win.classList.add("minimized");
+  win.classList.remove("active");
+}
+
+document.querySelectorAll("[data-open]").forEach(button => {
+  button.addEventListener("click", () => {
+    openWindow(button.dataset.open);
+  });
+});
+
+windows.forEach(win => {
+  win.addEventListener("pointerdown", () => focusWindow(win));
+
+  win.querySelector(".close").addEventListener("click", e => {
+    e.stopPropagation();
+    closeWindow(win);
+  });
+
+  win.querySelector(".minimize").addEventListener("click", e => {
+    e.stopPropagation();
+    closeWindow(win);
+  });
+
+  win.querySelector(".maximize").addEventListener("click", e => {
+    e.stopPropagation();
+    const desktop = document.getElementById("desktop");
+    const d = desktop.getBoundingClientRect();
+    const w = win.getBoundingClientRect();
+    win.style.left = Math.max(10, (d.width - w.width) / 2) + "px";
+    win.style.top = Math.max(10, (d.height - w.height) / 2 - 20) + "px";
+    win.style.right = "auto";
+    focusWindow(win);
+  });
+});
+
+/*HOLY SHIT DRAGabnle  WINDOWS*/
+
+windows.forEach(win => {
+  const bar = win.querySelector(".titlebar");
+  let dragging = false;
+  let startX = 0;
+  let startY = 0;
+  let initialLeft = 0;
+  let initialTop = 0;
+
+  bar.addEventListener("pointerdown", e => {
+    if (e.target.closest("button")) return;
+
+    dragging = true;
+    focusWindow(win);
+
+    const rect = win.getBoundingClientRect();
+    const desktopRect = document.getElementById("desktop")
+      .getBoundingClientRect();
+    win.style.left = (rect.left - desktopRect.left) + "px";
+    win.style.top = (rect.top - desktopRect.top) + "px";
+    win.style.right = "auto";
+
+    startX = e.clientX;
+    startY = e.clientY;
+    initialLeft = rect.left - desktopRect.left;
+    initialTop = rect.top - desktopRect.top;
+
+    bar.setPointerCapture(e.pointerId);
+  });
+
+  bar.addEventListener("pointermove", e => {
+    if (!dragging) return;
+
+    const desktop = document.getElementById("desktop");
+    const maxX = Math.max(0, desktop.clientWidth - win.offsetWidth);
+    const maxY = Math.max(0, desktop.clientHeight - 70);
+
+    win.style.left = Math.max(0, Math.min(maxX,
+      initialLeft + e.clientX - startX)) + "px";
+
+    win.style.top = Math.max(0, Math.min(maxY,
+      initialTop + e.clientY - startY)) + "px";
+  });
+
+  function stopDrag() { dragging = false; }
+
+  bar.addEventListener("pointerup", stopDrag);
+  bar.addEventListener("pointercancel", stopDrag);
+});
+function updateClock() {
+  const now = new Date();
+
+  document.getElementById("clock").textContent =
+    now.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true
+    });
+
+  document.getElementById("clockDate").textContent =
+    now.toLocaleDateString([], {
+      month: "short",
+      day: "numeric"
+    });
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+if (SETTINGS.spotifyPlaylistId.trim()) {
+  const id = SETTINGS.spotifyPlaylistId.trim();
+  if (/^[a-zA-Z0-9]+$/.test(id)) {
+    const playlistUrl =
+      "https://open.spotify.com/playlist/" + id;
+
+    document.getElementById("spotifyLink").href = playlistUrl;
+
+    const embed = document.getElementById("spotifyEmbed");
+    const frame = document.getElementById("spotifyFrame");
+
+    frame.src =
+      "https://open.spotify.com/embed/playlist/" +
+      id + "?theme=0";
+
+    embed.hidden = false;
+  }
+}
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightboxImage");
+
+document.querySelectorAll("[data-full]").forEach(button => {
+  button.addEventListener("click", () => {
+    const img = button.querySelector("img");
+    lightboxImage.src = img.src;
+    lightboxImage.alt = img.alt;
+    lightbox.classList.add("open");
+    document.getElementById("lightboxClose").focus();
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove("open");
+  lightboxImage.src = "";
+}
+
+document.getElementById("lightboxClose")
+  .addEventListener("click", closeLightbox);
+
+lightbox.addEventListener("click", e => {
+  if (e.target === lightbox) closeLightbox();
+});
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeLightbox();
+});
+
+document.title = SETTINGS.name === "HostApple"
+  ? "my cozy universe.exe"
+  : SETTINGS.name + " · my cozy universe";
+
+const aboutText = document.querySelector("#about .window-content p");
+if (SETTINGS.name !== "HostApple") {
+  aboutText.innerHTML = aboutText.innerHTML.replace(
+    "HostApple", SETTINGS.name
+  );
+}
+</script>
+</body>
+</html>
